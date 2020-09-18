@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url('../IMG/checkpattern.jpg');
+}
+nav { 
+    border:1px double #ff0000;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+nav li {
+    display:inline;
+}
+nav a{
+    display:inline-block;       
+    text-decoration: none;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: #ff0000;
+    font-family: 'American Typewriter';
+}
+h1 {
+    color: #ff0000;
+    font-family: 'Shlop';
+    font-size: 500%;
+    border: 5px double #ff0000;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ffffff;
+}
+img {
+    width: 20%;
+    height: auto;
+    border: 5px double #ff0000;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+p {
+    color: #ff0000;
+    font-family: 'American Typewriter';
+    font-size: 150%;
+    text-align: center;
+    margin-top:1px;
+}
+div {
+    text-align: center;
+}
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  } 
+  #content-wrap {
+    padding-bottom: 0;    /* Footer height */
+  }
+  #footer {
+    position: absolute;
+    display: inline;
+    bottom: 0;
+  }
+ 
