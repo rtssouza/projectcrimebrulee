@@ -1,11 +1,11 @@
 *{
     box-sizing: border-box;
 }
-.container{
+.page-container{
     width: 100%;
     height: auto;
 }
-.article{
+.content-wrap{
     width:90%; /*Takes 90% width from container*/
     height: auto;
     margin: auto;
