@@ -2,13 +2,9 @@
     box-sizing: border-box;
 }
 .page-container{
-    width: 100%;
-    height: auto;
-}
-.content-wrap{
-    width:90%; /*Takes 90% width from container*/
-    height: auto;
-    margin: auto;
+    width:100%;
+    min-width:1000px;
+    height:auto;
 } 
 body {
     background-image: url('../IMG/checkpattern.jpg');
