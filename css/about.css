@@ -36,8 +36,7 @@ img {
     border: 5px double #ff0000;
     border-radius: 5px;
     background-color: #ffffff;
-    margin-left: 400px;
-    margin-right: 400px;
+    align: center;
 }
 p {
     color: #ff0000;
